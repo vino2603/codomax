@@ -1,57 +1,17 @@
-// Welcome Button
-document.getElementById("welcomeBtn").onclick = function(){
+function project1(){
 
-    document.getElementById("message").innerHTML =
-    "Welcome! Thanks for visiting my portfolio.";
-
-};
-
-// Dark Mode
-document.getElementById("themeBtn").onclick = function(){
-
-    document.body.classList.toggle("dark");
-
-};
-
-// Live Clock
-function showTime(){
-
-    const now = new Date();
-
-    document.getElementById("clock").innerHTML =
-    now.toLocaleTimeString();
+alert("Portfolio Website\n\nTechnologies: HTML, CSS, JavaScript");
 
 }
 
-setInterval(showTime,1000);
+function project2(){
 
-// Scroll Button
-const topBtn=document.getElementById("topBtn");
-
-window.onscroll=function(){
-
-    if(document.documentElement.scrollTop>150){
-
-        topBtn.style.display="block";
-
-    }
-
-    else{
-
-        topBtn.style.display="none";
-
-    }
+alert("Recipe Finder\n\nResponsive Website Project");
 
 }
 
-topBtn.onclick=function(){
+function project3(){
 
-    window.scrollTo({
-
-        top:0,
-
-        behavior:"smooth"
-
-    });
+alert("Student Management System\n\nCRUD Based Project");
 
 }
