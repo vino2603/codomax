@@ -376,3 +376,36 @@ width:90%;
 }
 
 }
+#topBtn{
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+padding:15px;
+
+border-radius:50%;
+
+font-size:20px;
+
+cursor:pointer;
+
+display:none;
+
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+
+}
+
+#topBtn:hover{
+
+background:#1d4ed8;
+
+}
