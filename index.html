@@ -1,241 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Day 11</title>
 
-<meta charset="UTF-8">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<title>Vinodhini | Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
-
 <body>
 
-<!-- Header -->
-
-<header>
-
-<div class="logo">
-Vinodhini
-</div>
+<!-- ================= NAVBAR ================= -->
 
 <nav>
-
-<a href="#home">Home</a>
-
-<a href="#about">About</a>
-
-<a href="#skills">Skills</a>
-
-<a href="#education">Education</a>
-
-<a href="#projects">Projects</a>
-
-<a href="#experience">Experience</a>
-
-<a href="#contact">Contact</a>
-
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 </nav>
 
-</header>
+<!-- ================= HERO ================= -->
 
-<!-- Hero Section -->
+<section class="hero" id="home">
+ <img src="https://randomuser.me/api/portraits/women/79.jpg"
+     class="profile-image"
+     alt="Vinodhini">
 
-<section id="home" class="hero">
+    <h1>Hello, I'm <span>Vinodhini</span></h1>
 
-<div class="hero-text">
+    <h2>M.Sc Computer Science Student</h2>
 
-<h3>Hello, I'm</h3>
+    <p>
+        Passionate Web Developer | Frontend Developer |
+        Learning HTML, CSS, JavaScript and React.
+    </p>
 
-<h1>Vinodhini <span>B</span></h1>
-
-<h2>M.Sc Computer Science Student</h2>
-
-<p>
-
-Passionate about Web Development, Front-End Design,
-HTML, CSS, JavaScript and creating responsive websites.
-
-</p>
-
-<div class="hero-buttons">
-
-<a href="#about" class="btn">
-Explore
-</a>
-
-<a href="resume.pdf" download class="btn">
-Download Resume
-</a>
-
-<a href="#contact" class="btn">
-Send Message
-</a>
-
-</div>
-
-</div>
-
-<div class="hero-image">
-    <img src="https://img.magnific.com/premium-photo/headshot-photo-beautiful-girl_63106-2332.jpg" alt="Profile">
-</div>
+    <a href="#projects" class="btn">
+        Explore My Work
+    </a>
 
 </section>
 
-<!-- About -->
+<!-- ================= ABOUT ================= -->
 
 <section id="about">
 
-<h2 class="title">About Me</h2>
+    <h2>About Me</h2>
 
-<div class="about-box">
-
-<p>
-
-Hello! I'm <b>Vinodhini</b>, currently pursuing
-M.Sc Computer Science at Bishop Heber College.
-I enjoy building responsive websites and learning
-modern web development technologies.
-My goal is to become a Full Stack Web Developer.
-
-</p>
-
-</div>
+    <p>
+        I am an enthusiastic Computer Science student
+        who enjoys building responsive and attractive
+        websites using modern web technologies.
+    </p>
 
 </section>
 
-<!-- Skills -->
+<!-- ================= SKILLS ================= -->
 
 <section id="skills">
 
-<h2 class="title">My Skills</h2>
+<h2>Skills</h2>
 
-<div class="skills-container">
-
-<div class="skill-card">
-
-<i class="fa-brands fa-html5"></i>
-
-<h3>HTML5</h3>
-
-<p>Semantic Web Development</p>
-
+<div class="skill-box">
+    HTML5
 </div>
 
-<div class="skill-card">
-
-<i class="fa-brands fa-css3-alt"></i>
-
-<h3>CSS3</h3>
-
-<p>Responsive Web Design</p>
-
+<div class="skill-box">
+    CSS3
 </div>
 
-<div class="skill-card">
-
-<i class="fa-brands fa-js"></i>
-
-<h3>JavaScript</h3>
-
-<p>DOM Manipulation</p>
-
+<div class="skill-box">
+    JavaScript
 </div>
 
-<div class="skill-card">
-
-<i class="fa-brands fa-github"></i>
-
-<h3>GitHub</h3>
-
-<p>Version Control</p>
-
+<div class="skill-box">
+    Bootstrap
 </div>
 
-<div class="skill-card">
-
-<i class="fa-solid fa-code"></i>
-
-<h3>C Programming</h3>
-
-<p>Programming Basics</p>
-
+<div class="skill-box">
+    React
 </div>
 
-<div class="skill-card">
-
-<i class="fa-brands fa-python"></i>
-
-<h3>Python</h3>
-
-<p>Problem Solving</p>
-
-</div>
-
-</div>
-
-</section>
-<!-- =========================
-     EDUCATION
-========================= -->
-
-<section id="education">
-
-<h2 class="title">Education</h2>
-
-<div class="education-container">
-
-<div class="education-card">
-
-<h3>M.Sc Computer Science</h3>
-
-<h4>Bishop Heber College, Tiruchirappalli</h4>
-
-<p>2025 - Present</p>
-
-</div>
-
-<div class="education-card">
-
-<h3>B.Sc Computer Science</h3>
-
-<h4>Bishop Heber College, Tiruchirappalli</h4>
-
-<p>Completed Successfully</p>
-
-</div>
-
+<div class="skill-box">
+    Git & GitHub
 </div>
 
 </section>
 
-<!-- =========================
-     PROJECTS
-========================= -->
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects">
 
-<h2 class="title">My Projects</h2>
-
-<div class="project-container">
+<h2>Projects</h2>
 
 <div class="project-card">
 
 <h3>Portfolio Website</h3>
 
 <p>
-Designed and developed a responsive personal portfolio
-using HTML, CSS and JavaScript.
+Personal portfolio built using HTML and CSS.
 </p>
 
-<a href="#" class="project-btn">View Project</a>
+<a href="#" class="btn">View Project</a>
 
 </div>
 
@@ -244,193 +120,112 @@ using HTML, CSS and JavaScript.
 <h3>Recipe Finder</h3>
 
 <p>
-Created a responsive Recipe Finder application with
-modern UI and attractive design.
+Responsive recipe search website.
 </p>
 
-<a href="#" class="project-btn">View Project</a>
+<a href="#" class="btn">View Project</a>
 
 </div>
 
 <div class="project-card">
 
-<h3>Student Management System</h3>
+<h3>Hospital Management</h3>
 
 <p>
-Developed a student management application for managing
-student records efficiently.
+Simple management system project.
 </p>
 
-<a href="#" class="project-btn">View Project</a>
-
-</div>
+<a href="#" class="btn">View Project</a>
 
 </div>
 
 </section>
 
-<!-- =========================
-     EXPERIENCE
-========================= -->
+<!-- ================= PROGRESS ================= -->
 
-<section id="experience">
+<section>
 
-<h2 class="title">Experience</h2>
+<h2>Learning Progress</h2>
 
-<div class="experience-container">
+<div class="progress">
 
-<div class="experience-card">
-
-<h3>Web Development Intern</h3>
-
-<h4>Codomax Internship</h4>
-
-<p>
-
-Learning HTML, CSS, JavaScript, Responsive Design,
-GitHub, and Front-End Development by building
-real-world portfolio projects.
-
-</p>
-
-</div>
-
-<div class="experience-card">
-
-<h3>Academic Projects</h3>
-
-<h4>Bishop Heber College</h4>
-
-<p>
-
-Completed various academic mini projects including
-web applications, programming tasks and responsive
-website development.
-
-</p>
-
-</div>
+<div class="bar"></div>
 
 </div>
 
 </section>
-<!-- =========================
-     CONTACT
-========================= -->
+
+<!-- ================= LOADER ================= -->
+
+<section>
+
+<h2>Loading Animation</h2>
+
+<div class="loader"></div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
 
 <section id="contact">
 
-    <h2 class="title">Contact Me</h2>
+<h2>Contact Me</h2>
 
-    <div class="contact-container">
+<form>
 
-        <div class="contact-info">
+<input
+type="text"
+placeholder="Your Name"
+required>
 
-    <h3>Let's Connect</h3>
+<input
+type="email"
+placeholder="Your Email"
+required>
 
-    <p>
-        <i class="fas fa-envelope"></i>
-        <a href="mailto:vinodhinivinodhini2603@gmail.com">
-            vinodhinivinodhini2603@gmail.com
-        </a>
-    </p>
+<textarea
+rows="6"
+placeholder="Your Message"></textarea>
 
-    <p>
-        <i class="fas fa-phone"></i>
-        <a href="tel:+918270614565">
-            +91 82706 14565
-        </a>
-    </p>
+<button class="btn">
+Send Message
+</button>
 
-    <p>
-        <i class="fas fa-location-dot"></i>
-        Tiruchirappalli, Tamil Nadu, India
-    </p>
-
-    <div class="social-icons">
-
-        <a href="https://github.com/vino2603" target="_blank" title="GitHub">
-            <i class="fab fa-github"></i>
-        </a>
-
-        <a href="https://www.linkedin.com/in/vinodhini-b-44aa74281" target="_blank" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-        </a>
-
-        <a href="https://www.instagram.com/vino2620" target="_blank" title="Instagram">
-            <i class="fab fa-instagram"></i>
-        </a>
-
-    </div>
-
-</div>
-        <!-- Contact Form -->
-
-        <form id="contactForm">
-
-            <input
-                type="text"
-                id="name"
-                placeholder="Your Name"
-                required
-            >
-
-            <input
-                type="email"
-                id="email"
-                placeholder="Your Email"
-                required
-            >
-
-            <input
-                type="text"
-                id="subject"
-                placeholder="Subject"
-                required
-            >
-
-            <textarea
-                id="message"
-                rows="6"
-                placeholder="Write your message..."
-                required
-            ></textarea>
-
-            <button type="submit" class="btn">
-                Send Message
-            </button>
-
-        </form>
-
-    </div>
+</form>
 
 </section>
 
-</section>
-<!-- =========================
-     FOOTER
-========================= -->
+<!-- ================= SOCIAL ================= -->
 
 <footer>
 
+<h2>Follow Me</h2>
+
+<div class="social">
+
+<a href="#">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="#">
+<i class="fab fa-twitter"></i>
+</a>
+
+</div>
+
 <p>
-© 2026 Vinodhini B | All Rights Reserved.
+© 2026 Vinodhini. All Rights Reserved.
 </p>
 
 </footer>
 
-<!-- Scroll To Top Button -->
-
-<button id="topBtn" onclick="topFunction()">
-
-⬆
-
-</button>
-
-<!-- JavaScript -->
-
-<script src="script.js"></script>
-
 </body>
-
 </html>
