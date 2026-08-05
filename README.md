@@ -22,7 +22,7 @@ This is my personal portfolio website created using HTML, CSS, and JavaScript.
 https://vino2603.github.io/codomax/
 
 ## GitHub Repository
-https://github.com/vino2603/codomaxs
+https://github.com/vino2603/codomax
 
 ## Author
 Vinodhini B
