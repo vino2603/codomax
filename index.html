@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | Day 11</title>
+    <title>Vinodhini | Portfolio</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -15,11 +15,15 @@
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+
 <body>
 
 <!-- ================= NAVBAR ================= -->
 
+<header>
 <nav>
+    <div class="logo">Portfolio</div>
+
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -28,90 +32,117 @@
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
+</header>
 
 <!-- ================= HERO ================= -->
 
 <section class="hero" id="home">
- <img src="https://randomuser.me/api/portraits/women/79.jpg"
-     class="profile-image"
-     alt="Vinodhini">
 
-    <h1>Hello, I'm <span>Vinodhini</span></h1>
+<div class="hero-text">
 
-    <h2>M.Sc Computer Science Student</h2>
+<h3>Hello, I'm</h3>
 
-    <p>
-        Passionate Web Developer | Frontend Developer |
-        Learning HTML, CSS, JavaScript and React.
-    </p>
+<h1>Vinodhini B</h1>
 
-    <a href="#projects" class="btn">
-        Explore My Work
-    </a>
+<h2>M.Sc Computer Science Student</h2>
+
+<p>
+Passionate Front-End Developer who loves creating
+beautiful, responsive, and user-friendly websites.
+</p>
+
+<a href="#projects" class="btn">
+Explore My Work
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://randomuser.me/api/portraits/women/44.jpg"
+class="profile-image"
+alt="Profile">
+
+</div>
 
 </section>
 
 <!-- ================= ABOUT ================= -->
 
-<section id="about">
+<section class="about" id="about">
 
-    <h2>About Me</h2>
+<h2>About Me</h2>
 
-    <p>
-        I am an enthusiastic Computer Science student
-        who enjoys building responsive and attractive
-        websites using modern web technologies.
-    </p>
+<p>
+I am an enthusiastic Computer Science student with a passion
+for web development. I enjoy designing responsive websites,
+learning modern technologies, and solving real-world problems
+through coding.
+</p>
 
 </section>
 
 <!-- ================= SKILLS ================= -->
 
-<section id="skills">
+<section class="skills" id="skills">
 
 <h2>Skills</h2>
 
-<div class="skill-box">
-    HTML5
+<div class="skills-container">
+
+<div class="skill-card">
+<i class="fab fa-html5"></i>
+<h3>HTML</h3>
 </div>
 
-<div class="skill-box">
-    CSS3
+<div class="skill-card">
+<i class="fab fa-css3-alt"></i>
+<h3>CSS</h3>
 </div>
 
-<div class="skill-box">
-    JavaScript
+<div class="skill-card">
+<i class="fab fa-js"></i>
+<h3>JavaScript</h3>
 </div>
 
-<div class="skill-box">
-    Bootstrap
+<div class="skill-card">
+<i class="fab fa-react"></i>
+<h3>React</h3>
 </div>
 
-<div class="skill-box">
-    React
+<div class="skill-card">
+<i class="fab fa-github"></i>
+<h3>GitHub</h3>
 </div>
 
-<div class="skill-box">
-    Git & GitHub
+<div class="skill-card">
+<i class="fas fa-database"></i>
+<h3>SQL</h3>
+</div>
+
 </div>
 
 </section>
 
 <!-- ================= PROJECTS ================= -->
 
-<section id="projects">
+<section class="projects" id="projects">
 
 <h2>Projects</h2>
+
+<div class="project-container">
 
 <div class="project-card">
 
 <h3>Portfolio Website</h3>
 
 <p>
-Personal portfolio built using HTML and CSS.
+Responsive portfolio developed using HTML and CSS.
 </p>
 
-<a href="#" class="btn">View Project</a>
+<a href="#" class="btn">
+View
+</a>
 
 </div>
 
@@ -120,10 +151,12 @@ Personal portfolio built using HTML and CSS.
 <h3>Recipe Finder</h3>
 
 <p>
-Responsive recipe search website.
+Simple recipe search application.
 </p>
 
-<a href="#" class="btn">View Project</a>
+<a href="#" class="btn">
+View
+</a>
 
 </div>
 
@@ -132,42 +165,22 @@ Responsive recipe search website.
 <h3>Hospital Management</h3>
 
 <p>
-Simple management system project.
+Student management system project.
 </p>
 
-<a href="#" class="btn">View Project</a>
+<a href="#" class="btn">
+View
+</a>
 
 </div>
 
-</section>
-
-<!-- ================= PROGRESS ================= -->
-
-<section>
-
-<h2>Learning Progress</h2>
-
-<div class="progress">
-
-<div class="bar"></div>
-
 </div>
-
-</section>
-
-<!-- ================= LOADER ================= -->
-
-<section>
-
-<h2>Loading Animation</h2>
-
-<div class="loader"></div>
 
 </section>
 
 <!-- ================= CONTACT ================= -->
 
-<section id="contact">
+<section class="contact" id="contact">
 
 <h2>Contact Me</h2>
 
@@ -185,7 +198,7 @@ required>
 
 <textarea
 rows="6"
-placeholder="Your Message"></textarea>
+placeholder="Message"></textarea>
 
 <button class="btn">
 Send Message
@@ -195,37 +208,29 @@ Send Message
 
 </section>
 
-<!-- ================= SOCIAL ================= -->
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
-<h2>Follow Me</h2>
-
 <div class="social">
 
-<a href="#">
-<i class="fab fa-github"></i>
-</a>
+<a href="#"><i class="fab fa-github"></i></a>
 
-<a href="#">
-<i class="fab fa-linkedin"></i>
-</a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
 
-<a href="#">
-<i class="fab fa-instagram"></i>
-</a>
+<a href="#"><i class="fab fa-instagram"></i></a>
 
-<a href="#">
-<i class="fab fa-twitter"></i>
-</a>
+<a href="#"><i class="fab fa-twitter"></i></a>
 
 </div>
 
 <p>
-© 2026 Vinodhini. All Rights Reserved.
+© 2026 Vinodhini | All Rights Reserved
 </p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
